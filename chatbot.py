@@ -3,7 +3,6 @@ from langchain_groq import ChatGroq
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_community.document_loaders import WebBaseLoader
 import re
-from youtube_transcript_api import YouTubeTranscriptApi
 
 def carrega_modelo(modelo, api_key):
     return ChatGroq(model=modelo, api_key=api_key)

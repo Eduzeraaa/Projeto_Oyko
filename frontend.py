@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 from langchain.memory import ConversationBufferMemory
-from chatbot import resposta_bot, carrega_site, conversa_livre
+from chatbot import resposta_bot, carrega_site
 from langchain_groq import ChatGroq
 
 arquivos_disponiveis = ['Conversa Livre', 'Site']
