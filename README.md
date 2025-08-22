@@ -25,7 +25,3 @@ Para usar o Öyko é simples! Siga o passo a passo para não ter complicações:
 - 7 - Acesse: https://projeto-oyko.streamlit.app/
 - 8 - Ao abrir o site, vá na aba _Seleção de modelo_, escolha um dos modelos disponíveis, e insira sua api key.
 - 9 - Pronto! Agora, basta usar o Öyko!
-
-
-
-![diagrama chatbot](https://github.com/user-attachments/assets/a3f0af75-a4f4-416b-bf4e-a41be982de73)
