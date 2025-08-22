@@ -20,7 +20,7 @@ Fiz algumas alterações:
 ### Frustrações
 Após mais de 12 horas pesquisando o motivo de não rodar a parte de ver vídeos do YouTube, cheguei em uma conclusão: o problema não era o código, nem a biblioteca. É algo que transcende o Python. Atualizei as bibliotecas, criei um ambiente virtual (venv), fiz alterações e substituí a biblioteca "_youtube-transcript-ai_" pelo "_pytube_", e os erros persistiram. Portanto, acabei desistindo por hora. Mas ainda sim, apesar de tamanha frustração, não descartei a ideia. Talvez em versões futuras eu consiga adicioná-lo.
 
-## Verão 1.0.1 - 06/08/2025
+## Versão 1.0.1 - 06/08/2025
 
 ### Adicionado
 O modelo da Groq que estou usando, suporta até 6000 caratcteres. Caso um usuário enviasse um site com mais de 6000 caracteres, ocorria um bug e ele fechava. Agora, adicionei o seguinte: caso o site que o usuário tenha enviado, tenha mais de 5000 carateres, o Öyko irá ler apenas os 5000 primeiros.
@@ -28,3 +28,14 @@ O modelo da Groq que estou usando, suporta até 6000 caratcteres. Caso um usuár
 Nenhuma alteração nessa atualização.
 ### Frustrações
 Nenhuma frustração nessa atualização.
+
+## Versão 1.1.0 - 21/08/2025
+
+### Adicionado
+Implementei o frontend completo do Öyko, com abas de Upload de Arquivos e Seleção de Modelo, permitindo que o usuário interaja com o modelo de forma intuitiva. Além disso, agora o usuário pode escolher um de três modelos para conversar: _llama-3.3-70b-versatile_, _deepseek-r1-distill-llama-70b_, e o _llama-3.1-8b-instant_.
+
+### Alterado
+Fiz algumas alterações no _chatbot.py_, pois precisava alterar o código que era funcional para CLI. 
+
+### Frustrações
+A tentativa de integrar a análise de vídeos do YouTube novamente falhou. Não consegui descobrir o motivo do problema, mas continuo buscando soluções.
